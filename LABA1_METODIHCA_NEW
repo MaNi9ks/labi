@@ -1,0 +1,25 @@
+package laba;
+import java.util.Scanner;
+public class laba {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("факториал");
+        double f = 1.0;
+
+        double i;
+
+
+        System.out.println("Введите символ или символы");
+
+        int d2 = sc.nextInt();
+
+        for (i = 1; i <= d2; i++) {
+
+            f = f * i;
+
+        }
+
+        System.out.println(f);
+    }
+}
